@@ -1,0 +1,32 @@
+# == Schema Information
+#
+# Table name: todos
+#
+#  id             :bigint           not null, primary key
+#  description    :string
+#  remaining_time :integer
+#  status         :integer
+#  timer          :integer
+#  title          :string
+#  created_at     :datetime         not null
+#  updated_at     :datetime         not null
+#  user_id        :integer
+#
+# Indexes
+#
+#  index_todos_on_user_id  (user_id)
+#
+
+one:
+  title: MyString
+  description: MyString
+  status: 1
+  timer: 2024-05-24 17:59:30
+  remaining_time: 2024-05-24 17:59:30
+
+two:
+  title: MyString
+  description: MyString
+  status: 1
+  timer: 2024-05-24 17:59:30
+  remaining_time: 2024-05-24 17:59:30
